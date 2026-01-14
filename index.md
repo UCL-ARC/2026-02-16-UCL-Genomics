@@ -3,24 +3,24 @@ layout: workshop      # DON'T CHANGE THIS.
 # More detailed instructions (including how to fill these variables for an
 # online workshop) are available at
 # https://carpentries.github.io/workshop-template/customization/index.html
-venue: "FIXME"        # brief name of the institution that hosts the workshop without address (e.g., "Euphoric State University")
-address: "FIXME"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria"), videoconferencing URL, or 'online'
-flag_in_person: ""    # Provide "true" to include text in the general information, stressing the workshop is in-person attendance only.
-country: "FIXME"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1#Current_codes) for the institution that hosts the workshop
-language: "FIXME"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) for the workshop
-latitude: "45"        # decimal latitude of workshop venue (use https://www.latlong.net/)
-longitude: "-1"       # decimal longitude of the workshop venue (use https://www.latlong.net)
-humandate: "FIXME"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
-humantime: "FIXME"    # human-readable times for the workshop e.g., "9:00 am - 4:30 pm CEST (7:00 am - 2:30 pm UTC)"
-startdate: FIXME      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
-enddate: FIXME        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
-instructor: ["instructor one", "instructor two"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
-helper: ["helper one", "helper two"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
-email: ["first@example.org","second@example.org"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
-collaborative_notes:  # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document (e.g., https://pad.carpentries.org/2015-01-01-euphoria)
+venue: "UCL"        # brief name of the institution that hosts the workshop without address (e.g., "Euphoric State University")
+address: "1-19 Torrignton Place"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria"), videoconferencing URL, or 'online'
+flag_in_person: "true"    # Provide "true" to include text in the general information, stressing the workshop is in-person attendance only.
+country: "en"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1#Current_codes) for the institution that hosts the workshop
+language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) for the workshop
+latitude: "51.521884"        # decimal latitude of workshop venue (use https://www.latlong.net/)
+longitude: "-0.134561"       # decimal longitude of the workshop venue (use https://www.latlong.net)
+humandate: "Feb 16-17, 2026"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
+humantime: "09:30 - 17:00 UTC"    # human-readable times for the workshop e.g., "9:00 am - 4:30 pm CEST (7:00 am - 2:30 pm UTC)"
+startdate: 2026-02-16      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
+enddate: 2026-02-17        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
+instructor: [" Sunny Park", "Georg Otto"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
+helper: ["Nicholas Owen", "Angharad  Green"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
+email: ["arc.education@UCL.ac.uk"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
+collaborative_notes:  https://codimd.carpentries.org/2026-02-16-UCL-Genomics # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document (e.g., https://pad.carpentries.org/2015-01-01-euphoria)
 eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
-tickettailor:         # Optional: url bit that points to tickettailor event "1234567/abc/1100"
-pretix:               # Optional: url bit that points to pretix event "organisation/eventid"
+tickettailor:          # Optional: url bit that points to tickettailor event "1234567/abc/1100"
+pretix: ARC/2025-11-03-GENOMICS  # Optional: url bit that points to pretix event "organisation/eventid"
 what3words:           # optional: what3words (https://what3words.com) address of the workshop venue, without leading slashes e.g. "globe.lessening.computers"
 ---
 
@@ -36,31 +36,6 @@ And run 'make workshop-check' *before* committing to make sure that changes are 
 {% endcomment %}
 
 
-
-{% comment %}
-8< ============= For a workshop delete from here =============
-For a workshop please delete the following block until the next dashed-line
-{% endcomment %}
-
-
-<div class="alert alert-danger">
-This is the workshop template. Delete these lines and use it to
-<a href="https://carpentries.github.io/workshop-template/customization/index.html">customize</a>
-your own website. If you are running a self-organized workshop or have not put
-in a workshop request yet, please also fill in
-<a href="{{site.amy_site}}/forms/self-organised/">this workshop request form</a>
-to let us know about your workshop and our administrator may contact you if we
-need any extra information.
-If this is a pilot workshop for a new lesson,
-set the `pilot` field to `true` in `_config.yml`.
-For workshops teaching a lesson in The Carpentries Incubator,
-remember to uncomment the `incubator_lesson_site`, `incubator_pre_survey`, and `incubator_post_survey`
-fields in `_config.yml`
-</div>
-
-{% comment %}
-8< ============================= until here ==================
-{% endcomment %}
 
 {% comment %}
 Check DC curriculum
@@ -454,6 +429,8 @@ of code below the Schedule `<h2>` header below with
 {% include lc/schedule.html %}
 {% elsif site.carpentry == "ucl-hpcc" %}
 {% include ucl-hpcc/schedule.html %}
+{% elsif site.carpentry == "ucl" %}
+{% include ucl/schedule.html %}
 {% elsif site.carpentry == "incubator" %}
 This workshop is teaching a lesson in 
 <a href="https://carpentries-incubator.org/">The Carpentries Incubator</a>. Please check <a href="{{site.incubator_lesson_site}}">the lesson homepage</a> for a list of lesson sections and estimated timings.
@@ -494,17 +471,13 @@ please preview your site before committing, and make sure to run
   Data Carpentry
   {% elsif site.carpentry == "lc" %}
   Library Carpentry
+  {% elsif site.carpentry == "ucl" %}
+  UCL-ARC
   {% endif %}
   workshop,
   you will need access to software as described below.
   In addition, you will need an up-to-date web browser.
 </p>
-<p>
-  We maintain a list of common issues that occur during installation as a reference for instructors
-  that may be useful on the
-  <a href = "{{site.swc_github}}/workshop-template/wiki/Configuration-Problems-and-Solutions">Configuration Problems and Solutions wiki page</a>.
-</p>
-
 {% comment %}
 For online workshops, the section below provides:
 - installation instructions for the Zoom client
@@ -532,8 +505,17 @@ during the workshop.
 {% include lc/setup.html %}
 {% elsif site.carpentry == "ucl-hpcc" %}
 {% include ucl-hpcc/setup.html %}
+{% elsif site.carpentry == "ucl" %}
+{% include ucl/setup.html %}
 {% elsif site.carpentry == "incubator" %}
 Please check the "Setup" page of
 <a href="{{site.incubator_lesson_site}}">the lesson homepage</a> for instructions to follow
 to obtain the software and data you will need to follow the lesson.
 {% endif %}
+
+<p>
+  We maintain a list of common issues that occur during installation as a reference for instructors
+  that may be useful on the
+  <a href = "{{site.swc_github}}/workshop-template/wiki/Configuration-Problems-and-Solutions">Configuration Problems and Solutions wiki page</a>.
+</p>
+
