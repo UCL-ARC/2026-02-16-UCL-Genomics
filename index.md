@@ -390,8 +390,7 @@ change the value of `carpentry` to `incubator`.
 {% elsif site.carpentry == "ucl-hpcc" %}
 {% include ucl-hpcc/surveys.html %}
 {% else %}
-<p><a href="{{ site.pre_survey }}{{ site.github.project_title }}">Pre-workshop Survey</a></p>
-<p><a href="{{ site.post_survey }}{{ site.github.project_title }}">Post-workshop Survey</a></p>
+<p><a href="{{ site.post_survey }}">Post-workshop Survey</a></p>
 {% endif %}
 
 <hr/>
