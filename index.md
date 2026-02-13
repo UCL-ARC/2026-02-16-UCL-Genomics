@@ -421,8 +421,8 @@ of code below the Schedule `<h2>` header below with
 
 <h2 id="schedule">Schedule</h2>
 
-Day 1: [Project organization and management](https://datacarpentry.github.io/organization-genomics/) & [Introduction to the command line](https://datacarpentry.github.io/shell-genomics/) <br>
-Day 2 : [Data wrangling and processing](https://datacarpentry.github.io/wrangling-genomics/)
+<p>Day 1: <a href="https://datacarpentry.github.io/organization-genomics/">Project organization and management</a> & <a href="https://datacarpentry.github.io/shell-genomics/">Introduction to the command line</a></p> <br>
+<p>Day 2: <a href="https://datacarpentry.github.io/wrangling-genomics/">Data wrangling and processing</a></p>
 
 {% comment %}
 Edit/replace the text above if you want to include a schedule table.
