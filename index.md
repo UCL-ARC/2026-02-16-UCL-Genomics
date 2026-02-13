@@ -420,8 +420,7 @@ of code below the Schedule `<h2>` header below with
 {% endcomment %}
 
 <h2 id="schedule">Schedule</h2>
-
-<p>Day 1: <a href="https://datacarpentry.github.io/organization-genomics/">Project organization and management</a> & <a href="https://datacarpentry.github.io/shell-genomics/">Introduction to the command line</a></p> <br>
+<p>Day 1: <a href="https://datacarpentry.github.io/organization-genomics/">Project organization and management</a> & <a href="https://datacarpentry.github.io/shell-genomics/">Introduction to the command line</a></p>
 <p>Day 2: <a href="https://datacarpentry.github.io/wrangling-genomics/">Data wrangling and processing</a></p>
 
 {% comment %}
